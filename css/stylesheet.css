@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&display=swap');
+
+
+:root{
+	--color-general:#999;
+	--color-titulos: #29373c;
+	--color-gris: #f9faf2;
+	--color-footer: #f49f28;
+}
+body{
+	color: var(--color-general);
+	font-family: 'Nanum Pen Script';
+}
+#navbarNav a{
+	font-size: 25px;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+}
+
+.spooky{
+	font-family: 'Shojumaru';
+	color: #f49f28;
+	 
+}
+
+#hero h1 h2{
+	font-size: 'Shojumaru';
+}
+
+#hero p{
+	font-family: 'Shojumaru';
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	padding: 280px 0;
+	color:#fff;
+	
+}
+
+.blanco{
+	color: #fff;
+}
+
+#hero h1{
+	font-size: 85px;
+	
+
+}
+
+.hallo{
+	color: #f49f28;
+	text-decoration: underline;
+}
+
+.btnshop{
+	background-color: #f49f28;
+	border-radius: 4px;
+	padding: 5px;
+	color: #000;
+}
+
+
+.title{
+	color: var(--color-titulos);
+	font-size: 60px;
+}
+
+section{
+	padding: 80px 0;
+}
+
+h3{
+	color: var(--color-titulos);
+	}
+
+p{
+	font-size: 20px;	
+}
+#faq{
+	background-color: var(--fondo-gris);
+}
+
+footer{
+	background-color: var(--color-footer);
+}
+footer p{
+	color: var(--color-titulos);
+}
+
